@@ -1,7 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
 $body-bg: #FBDB65;
+$font-family-sans-serif: 'Slabo 27px',"Helvetica Neue", Helvetica, Arial, sans-serif;
 $text-color: #f39c12;
 $jumbotron-bg: #ecf0f1;
+$btn-default-color: white;
+$btn-primary-bg: #fd8e2f;
 $navbar-default-bg: #fd8e2f;
 $navbar-default-link-color: white;
 $navbar-default-link-hover-color: black;
+$navbar-height: 50px;
+
+
+
 @import 'bootstrap';
+.center{
+	text-align: center;
+}
