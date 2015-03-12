@@ -1,9 +1,9 @@
 <div class="jumbotron center">
 	<h1>Pinteresting</h1>
-	<p>Where you are the master of your own density</p>
+	<p>Where you are the master of your own destiny</p>
 		<% if user_signed_in? %>
-		Welcome to the members area
+		Welcome back <%= current_user.email%>!
 		<% else %>
-		<p>Click here to <%= link_to "Log In",new_user_session_path, class: "btn btn-primary btn-lg" %> or <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg"%></p>
+		<p><%= link_to "Log In",new_user_session_path, class: "btn btn-primary btn-lg" %> or <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg"%></p>
 		<% end %>
 </div>
